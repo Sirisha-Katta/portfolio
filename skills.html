@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills</title>
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+  />
+  <link rel="stylesheet" href="https://fontawesome.com/icons" />
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  </head>
+  <body>
+    <div id="navbar">
+        <div class="navbar-brand">PORTFOLIO</div>
+        <div class="nav">
+        <ul>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="demo.html">PROJECTS</a></li>
+          <li><a href="skills.html">SKILLS</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="sidebar">
+        <h4></h4>
+        <ul class="sidebarmenu">
+          <li class="names">
+            <a href="#"></a>
+          </li>
+          <li id="submenu" class="submenu">
+            <a href="#"></i>RESUME<i class="fa fa-chevron-circle-down indicator"></i></a>
+            <ul>
+              <li id="n1"><a href="K S Sirisha resume (1).pdf" target="_blank">OPEN RESUME</a></li>
+              <li id="n2"><a href="K S Sirisha resume (1).pdf" download="Sirisha's Resume">DOWNLOAD RESUME</a></li>
+            </ul>
+          </li>
+          <script>
+            $(".submenu a").click((event)=>{
+              $(event.target).parent().find("ul").slideToggle();
+              $(event.target).parent().find(".indicator").toggleClass("reverse");
+            });
+          </script>
+          <div class="contactbar">
+            <h4></h4>
+            <ul class="contactbarmenu">
+              <li class="names1">
+                <a href="#"></a>
+              </li>
+              <li id="contactmenu" class="contactmenu">
+                <a href="#"></i>CONTACT <i class="fa fa-chevron-circle-down indicator1"></i></a>
+                <ul>
+                  <li id="n3"><a href="https://github.com/codespaces" target="_blank">GIT-HUB</a></li>
+                  <li id="n4"><a href="https://www.linkedin.com/feed/" target="_blank">LINKED-IN</a></li>
+                  <li id="n5"><a href="mailto:sirishakatta1234@gmail.com" target="_blank">E-MAIL</a></li>
+                  <li id="n6"><a href="#" target="_blank">LOCATION:BANGALORE</a></li>
+                </ul>
+              </li>
+              <script>
+                $(".contactmenu a").click((event)=>{
+                  $(event.target).parent().find("ul").slideToggle();
+                  $(event.target).parent().find(".indicator1").toggleClass("reverse");
+                });
+              </script>
+    <div id="skilllist">
+    <div id="skillslist1">
+      <div class="skills1">
+        <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JAVASCRIPT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="skillslist2">
+        <div class="skills2">
+          <ul>
+            <li><a href="#">BOOTSTRAP</a></li>
+            <li><a href="#">NODEJS</a></li>
+            <li><a href="#">ANGULARJS</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="skillslist3">
+        <div class="skills3">
+          <ul>
+            <li><a href="#">C</a></li>
+            <li><a href="#">C++</a></li>
+            <li><a href="#">PYTHON</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

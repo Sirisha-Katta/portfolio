@@ -1,0 +1,37 @@
+#projects{
+    width:450px;
+    height:400px;
+    border:10px solid#1b6b6f;
+    padding:20px;
+    margin:20px;
+    position:absolute;
+    left:40%;
+    top:35%;
+}
+#demo:hover{
+    transform:scale(1.2);
+    transition:transform 0.5s
+}
+h1{
+    position:absolute;
+    left:15%;
+    top:10%; 
+}
+#head{
+    position:absolute;
+    left:46%;
+    top:25%; 
+    border:3px solid#1b6b6f;
+    padding: 5px;
+}
+#demo{
+    background-color:#1b6b6f ;
+    border:3px solid#022a2c;
+    position:absolute;
+    left:34%;
+    top:70%; 
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+    padding:5px;
+}
