@@ -351,6 +351,7 @@ font-size: medium;
 }
 #demo .col-right {
 	width: 100%;
+	
 }
 #demo .col-right h2 {
 	font-size: 1.8rem;
@@ -363,7 +364,12 @@ font-size: medium;
 }
 #demo .col-right .cta {
 	color: black;
+<<<<<<< HEAD
 	padding: 10px 10px;
+=======
+	margin-bottom: 10px;
+	padding: 10px 20px;
+>>>>>>> fafd5c33d833dcad7d48856258ba41528eb4ed77
 	font-size: 2rem;
 }
 #demo .col-left .demo-img {
