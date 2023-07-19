@@ -334,6 +334,10 @@ p {
 }
 /* End Services Section */
 /* demo section*/
+.info{
+line-height: 30px;
+font-size: medium;
+}
 #demo .demo {
 	flex-direction: column-reverse;
 	text-align: center;
@@ -359,8 +363,7 @@ p {
 }
 #demo .col-right .cta {
 	color: black;
-	margin-bottom: 50px;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	font-size: 2rem;
 }
 #demo .col-left .demo-img {
