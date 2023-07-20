@@ -275,7 +275,7 @@ p {
 .button1{
 	/* display: inline-block; */
 	/* text-align: center; */
-	padding: 10px 30px;
+	padding: 10px 10px;
 	color:black;
 	background-color: transparent;
 	border: 2px solid crimson;
@@ -294,7 +294,7 @@ p {
 .button2{
 	/* display: inline-block; */
 	/* text-align: center; */
-	padding: 10px 30px;
+	padding: 10px 10px;
 	color:black;
 	background-color: transparent;
 	border: 2px solid crimson;
@@ -313,7 +313,7 @@ p {
 .button3{
 	/* display: inline-block; */
 	/* text-align: center; */
-	padding: 10px 30px;
+	padding: 10px 10px;
 	color:black;
 	background-color: transparent;
 	border: 2px solid crimson;
